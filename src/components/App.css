@@ -1,0 +1,82 @@
+.alarm-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alarm-container > div {
+    padding: 1.5rem;
+}
+
+.alarm-lists {
+    width: 50vw;
+    border: 15px solid aqua;
+    overflow-y: scroll;
+    max-height: 100%;
+}
+
+.alarm-setter {
+    width: 50vw;
+    border: 15px solid blueviolet;
+}
+
+.alarm-div {
+    background-color: antiquewhite;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.alarm-box {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+input[type=checkbox] {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.alarm-time {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.alarm-time span {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.form-group {
+    width: 40%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+select, input {
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .alarm-container > div {
+        width: 100vw;
+    }
+}
+
+button {
+    padding: 0.5rem 0.9rem;
+    font-weight: bold;
+}
